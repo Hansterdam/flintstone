@@ -68,7 +68,7 @@ class Database
      * @param string $name
      * @param Config|null $config
      */
-    public function __construct(string $name, Config $config = null)
+    public function __construct(string $name, Config|null $config = null)
     {
         $this->setName($name);
 
